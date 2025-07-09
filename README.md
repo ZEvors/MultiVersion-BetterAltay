@@ -23,4 +23,6 @@ A Multi Version plugin for PocketMine-MP Betteraltay (API3). This plugin is curr
 
 ### TODO Versions:
 - Future versions
-- [](https://github.com/Benedikt05/BetterAltay)
+
+### Betteraltay
+- [BetterAltay](https://github.com/Benedikt05/BetterAltay)
