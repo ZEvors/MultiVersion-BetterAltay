@@ -19,6 +19,21 @@ class MultiVersionCraftingManager extends CraftingManager{
     protected $multiVersionCraftingDataCache = [];
 
     const PROTOCOL = [
+        ProtocolConstants::BEDROCK_1_21_93,
+        ProtocolConstants::BEDROCK_1_21_90,
+        ProtocolConstants::BEDROCK_1_21_80,
+        ProtocolConstants::BEDROCK_1_21_70,
+        ProtocolConstants::BEDROCK_1_21_60,
+        ProtocolConstants::BEDROCK_1_21_50,
+        ProtocolConstants::BEDROCK_1_21_40,
+        ProtocolConstants::BEDROCK_1_21_30,
+        ProtocolConstants::BEDROCK_1_21_20,
+        ProtocolConstants::BEDROCK_1_21_2,
+        ProtocolConstants::BEDROCK_1_21_0,
+        ProtocolConstants::BEDROCK_1_20_80,
+        ProtocolConstants::BEDROCK_1_20_70,
+        ProtocolConstants::BEDROCK_1_20_60,
+        ProtocolConstants::BEDROCK_1_20_50,
         ProtocolConstants::BEDROCK_1_18_0,
         ProtocolConstants::BEDROCK_1_17_40,
         ProtocolConstants::BEDROCK_1_17_30,
