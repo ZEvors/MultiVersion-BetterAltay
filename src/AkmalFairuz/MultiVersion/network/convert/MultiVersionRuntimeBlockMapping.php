@@ -26,11 +26,26 @@ class MultiVersionRuntimeBlockMapping{
     private static $bedrockKnownStates = [];
 
     const PROTOCOL = [
-        ProtocolConstants::BEDROCK_1_16_220 => "_1_16_220",
-        ProtocolConstants::BEDROCK_1_17_0 => "_1_17_0",
-        ProtocolConstants::BEDROCK_1_17_10 => "_1_17_10",
+        ProtocolConstants::BEDROCK_1_21_93 => "_1_21_93",
+        ProtocolConstants::BEDROCK_1_21_90 => "_1_21_90",
+        ProtocolConstants::BEDROCK_1_21_80 => "_1_21_80",
+        ProtocolConstants::BEDROCK_1_21_70 => "_1_21_70",
+        ProtocolConstants::BEDROCK_1_21_60 => "_1_21_60",
+        ProtocolConstants::BEDROCK_1_21_50 => "_1_21_50",
+        ProtocolConstants::BEDROCK_1_21_40 => "_1_21_40",
+        ProtocolConstants::BEDROCK_1_21_30 => "_1_21_30",
+        ProtocolConstants::BEDROCK_1_21_20 => "_1_21_20",
+        ProtocolConstants::BEDROCK_1_21_2  => "_1_21_2",
+        ProtocolConstants::BEDROCK_1_21_0  => "_1_21_0",
+        ProtocolConstants::BEDROCK_1_20_80 => "_1_20_80",
+        ProtocolConstants::BEDROCK_1_20_70 => "_1_20_70",
+        ProtocolConstants::BEDROCK_1_20_60 => "_1_20_60",
+        ProtocolConstants::BEDROCK_1_20_50 => "_1_20_50",
+        ProtocolConstants::BEDROCK_1_17_40 => "_1_17_40",
         ProtocolConstants::BEDROCK_1_17_30 => "_1_17_30",
-        ProtocolConstants::BEDROCK_1_17_40 => "_1_17_40"
+        ProtocolConstants::BEDROCK_1_17_10 => "_1_17_10",
+        ProtocolConstants::BEDROCK_1_17_0  => "_1_17_0",
+        ProtocolConstants::BEDROCK_1_16_220 => "_1_16_220"
     ];
 
     private function __construct(){
